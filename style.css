@@ -7,6 +7,7 @@ body {
     color: #fff;
     background: #18181c;
     overflow: hidden;
+    font: small-caps bold 24px/1 sans-serif;
 }
 
 .block {
@@ -26,24 +27,24 @@ body {
 
 h1 {
     position: absolute;
-    font-family: "Monument Extended", serif;
+    font: small-caps bold 24px/1 sans-serif;
     font-weight: lighter;
     font-size: 64px;
 }
 
 h2{
     position: absolute;
-    font-family: "Monument Extended", serif;
-    font-weight: lighter;
+    font: small-caps bold 24px/1 sans-serif;
     font-size: 44px;
 }
 
 #ProjectsTitle{
     top: -150px;
     left: -200px;
-    font-family: "Monument Extended", serif;
-    font-weight: lighter;
     font-size: 64px;
+}
+#ProjectsTitle:hover{
+    color: white;
 }
 
 .block-1 {
@@ -66,14 +67,18 @@ h2{
     background-size: cover;
 }
 
-.block:hover:after{
+.block:after{
     content:"\A";
     width:100%;
     height:100%;
-    background: rgba(16, 32, 68, 0.3);
+    background: rgba(0, 0, 0, 0.6);
     position:absolute;
     top:0;
     left:0;
+}
+
+.block h1:hover{
+    color: #5252ff;
 }
 
 .container {
@@ -100,21 +105,6 @@ h2{
     right: -60px;
 }
 
-/*.block-2 h1,*/
-/*.block-4 h1{*/
-/*    color: white;*/
-/*    z-index: 10;*/
-/*    top: 0;*/
-/*    right: -60px;*/
-/*}*/
-
-/*.block-2 h2,*/
-/*.block-4 h2{*/
-/*    color: white;*/
-/*    z-index: 10;*/
-/*    top: 75px;*/
-/*    right: -60px;*/
-/*}*/
 
 .center h1{
     color: rgba(0, 129, 255, 0.1);
@@ -128,12 +118,12 @@ h2{
 
 @keyframes background-text-animation {
     0%{
-        background-position: left 0px top 50%;
+        background-position: left 0 top 50%;
     }
     50%{
         background-position: left 1000px top 50%;
     }
     100%{
-        background-position: left 0px top 50%;
+        background-position: left 0 top 50%;
     }
 }
