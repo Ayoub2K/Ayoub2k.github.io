@@ -1,15 +1,46 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/main.css">
-    <title>testing place</title>
-</head>
-<body>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.144.0/three.js"></script>
-    <script src="js/main.js"></script>
-</body>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <title>Work in Progress</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" type="image/x-icon" href="/resources/favicon.ico">
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="scrlBlck LandingBlock center">
+                <h1>i am Ayoub Aarkoub.</h1>
+            </div>
+            <div class="scrlBlck block block-1">
+                <h1 id="ProjectsTitle">Projects.</h1>
+                <h1>Multiplayer Tetris.</h1>
+                <h2>Hogeschool Utrecht</h2>
+            </div>
+                <div class="scrlBlck block block-2">
+                    <h1>Multiplayer Tetris.</h1>
+                    <h2>Hogeschool Utrecht</h2>
+                </div>
+            <div class="scrlBlck block block-3">
+                <h1>Multiplayer Tetris.</h1>
+                <h2>Hogeschool Utrecht</h2>
+            </div>
+            <div class="scrlBlck block block-4">
+                <h1>Multiplayer Tetris.</h1>
+                <h2>Hogeschool Utrecht</h2>
+            </div>
+        </div>
+        <script src="scrolling.js"></script>
+        <script>
+            var blocks = document.getElementsByClassName("scrlBlck");
+            var container = document.getElementsByClassName("container");
+            var hs = new HorizontalScroll.default({
+                blocks: blocks,
+                container: container,
+                isAnimated: true,
+                springEffect: 0.5,
+            });
+        </script>
+    </body>
 </html>
