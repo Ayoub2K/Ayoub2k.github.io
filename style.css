@@ -47,12 +47,12 @@ h2{
 }
 
 .block-1 {
-    background: url(resources/giphy.gif) no-repeat 50% 50%;
+    background: url(resources/tetris.gif) no-repeat 10% 50%;
     background-size: cover;
 }
 
 .block-2 {
-    background: url(resources/giphy.gif) no-repeat 50% 50%;
+    background: url(resources/coding.gif) no-repeat 50% 50%;
     background-size: cover;
 }
 
@@ -67,12 +67,12 @@ h2{
 }
 
 .block-3 {
-    background: url(resources/giphy.gif) no-repeat 50% 50%;
+    background: url(resources/coding.gif) no-repeat 50% 50%;
     background-size: cover;
 }
 
 .block-4 {
-    background: url(resources/giphy.gif) no-repeat 50% 50%;
+    background: url(resources/coding.gif) no-repeat 50% 50%;
     background-size: cover;
 }
 
