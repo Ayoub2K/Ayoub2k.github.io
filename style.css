@@ -13,8 +13,10 @@ body {
 .block {
     position: relative;
     width: 800px;
+
+    padding-left: 0;
     height: 560px;
-    margin: 10px 300px 20px 80px;
+    margin: 10px 300px 20px 00px;
 }
 
 .LandingBlock {
@@ -39,6 +41,7 @@ h2{
 }
 
 #ProjectsTitle{
+    left: 0;
     top: -150px;
     font-size: 64px;
 }
@@ -49,6 +52,7 @@ h2{
 .block-1 {
     background: url(resources/tetris.gif) no-repeat 10% 50%;
     background-size: cover;
+    padding-left: 0;
 }
 
 .block-2 {
