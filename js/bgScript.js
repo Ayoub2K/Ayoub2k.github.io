@@ -8,5 +8,5 @@ VANTA.TOPOLOGY({
     scale: 1.00,
     scaleMobile: 1.00,
     color: 0xE4572E,
-    backgroundColor: 0x191923
+    backgroundColor: 0x181818
 })
